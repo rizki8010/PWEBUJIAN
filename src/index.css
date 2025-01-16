@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Poppins", sans-serif;
+  color-scheme: dark;
+}
+
+/* KTM Card Styles */
+.frame-child {
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, #fae303, rgba(148, 134, 2, 0));
+  width: 850px;
+  height: px;
+}
+
+/* Copy all the CSS classes from the provided index.css */
+/* ...existing tailwind directives... */
+
+.image-10-icon {
+  width: 343px;
+  position: relative;
+  height: 55px;
+  object-fit: cover;
+}
+
+/* ...paste all other classes from the provided CSS... */
+
+.frame-parent {
+  width: 100%;
+  position: relative;
+  border-radius: 24px;
+  background-color: #753995;
+  height: 550px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Montserrat;
+}
